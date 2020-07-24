@@ -15,7 +15,7 @@ for i in range(test):
     N,T,M = map(int,input().split())
     c = math.factorial(N-M)
     b = math.factorial(T)
-    a = math.factorial(N-M-T)
+   # a = math.factorial(N-M-T) unused line of code
     prob = 1 - (c)/(b*c)
     
     #finding in fraction form
